@@ -1,0 +1,92 @@
+img{
+    max-width: 100%;
+}
+.navbar .navbar-brand{
+    width:50px;
+    background:url('https://dummyimage.com/400x400/f77878/000ed1.png&text=logo') no-repeat center center;
+    background-size:80%;
+    border-radius:4px;
+}
+.side-bar .list-group-item.active{
+    background-color:#f77878;
+}
+.side-bar .list-group-item {
+    border:none;
+    border-radius:3px;
+    margin-bottom:5px;
+}
+
+.side-bar .list-group-item:hover{
+    background-color:#f77878;
+    color:#377ab7;
+}
+.content .title{
+    font-size:28px;
+    font-weight:bold;
+    line-height:1.4;
+    color:#333;
+    text-decoration:none;
+    display:block;
+    margin-bottom:10px;
+}
+.content .title:hover{
+    color:#377ab7;
+    cursor:pointer;
+}
+.content .status{
+    color:#999;
+}
+.content .status .avator{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    background-color:#f77878;
+    border-radius:50%;
+    margin-right:5px;
+}
+.content .news-item{
+    padding:20px 0;
+    border-bottom:1px solid rgba(0,0,0,.2);
+}
+.content .news-item:first-child{
+    padding-top:0;
+}
+.side-bar .warn{
+    margin:20px 0;
+}
+.side-bar-card{
+    background-color:rgba(0,0,0,.05);
+    border-radius:4px;
+}
+.warn img{
+    padding-top:10px;
+}
+.warn .title{
+    font-weight:bold;
+    line-height:1.2;
+    padding-top:6px;
+    margin-bottom:5px;
+}
+.side-bar-card .card-title{
+    font-weight:bold;
+    color:#f77878;
+    padding:5px 10px;
+}
+.side-bar-card .card-body .item{
+    padding:5px 10px;
+}
+.side-bar-card .card-body .item:hover{
+    background-color:rgba(0,0,0,.05);
+}
+.side-bar-card .card-body .title{
+    font-weight:bold;
+    color:#333;
+    text-decoration:none;
+}
+.side-bar-card .card-body .desc{
+    color:#999;
+    margin-top:4px;
+}
+.side-bar-card .card-body .item{
+    margin-bottom:10px;
+}
