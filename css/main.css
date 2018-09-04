@@ -90,3 +90,28 @@ img{
 .side-bar-card .card-body .item{
     margin-bottom:10px;
 }
+.status .label{
+    margin-left:8px;
+    opacity:.6;
+}
+.status{
+    color:#999;
+}
+.article .page{
+    white-space:pre-wrap;
+    font-size:16px;
+    line-height:1.5;
+}
+.article img{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:100px;
+}
+.article{
+    margin-bottom:40px;
+}
+
+.no-padding-h{
+    padding-left:0;
+    padding-right:0;
+}
